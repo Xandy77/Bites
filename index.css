@@ -1,0 +1,219 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+
+}
+
+header, main, footer{
+
+    width: 100%;
+
+}
+
+:root{
+    --primaria: rgb(29, 28, 28);
+    --secundaria: gray;
+    --terciaria:rgb(74, 231, 87);
+    --quaternaria:rgb(226, 127, 46);
+    --quinquenaria: rgb(226,226,226);
+
+
+}
+
+nav{
+    background-color: var(--primaria);
+}
+
+#banner{
+
+    width: 100%;
+    height: 500px;
+    background-color: var(--quaternaria);
+    display: flex;
+    justify-content: center;
+    background-image: url(images/ImagensGeral/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#logo{
+
+   
+    width: 8%;
+}
+
+#logo img{
+
+    width: 150%;
+   
+    
+}
+header nav{
+
+    
+    background-color: var(--primaria);
+    width: 100%;
+    height: 100px;
+    color: var(--secundaria);
+    display: flex;
+    flex-wrap: wrap;    
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#navegacao nav a {
+
+    margin: 0px 15px;
+    color: var(--secundaria);
+    text-decoration: none;
+ }
+
+ /* topicos, eventos*/
+ #topicos, #eventos{
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .topico, .evento{
+    width: 30%;
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+ }
+
+.topicoImg{
+    width: 150px; 
+    border-radius: 100%;
+    overflow: hidden;   
+ }
+
+.topicoImg{
+    width: 100%;
+}
+
+.botao{
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.dataEvento{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primaria);
+    color: var(--secundaria);
+}
+
+.evento{
+    flex-direction: row;
+    align-items: start;
+}
+
+.evento .botao{
+    width: 100px;
+
+}
+
+
+/* galeria */
+ #galeria{
+
+    width: 100%;
+    background-color: rgb(163, 187, 165);
+    padding: 10px 0px;
+    text-align: center;
+ }
+
+ #galeriaImagens{ /*pai*/
+
+    width: 100%;    
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 2px; */
+    
+ }
+
+ .galeriaImagem{ 
+
+    width: 20%;
+    height: 200px;
+    background-image: url(../images/ImagensGeral/bike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 2px;
+ }
+
+
+ #galeriaImg1{
+
+ background-image: url(../images/ImagensGeral//193013_10150115455117379_22764457378_6771398_1578764_o.jpg);
+
+ }
+
+ #galeriaImg2{
+
+    background-image: url(../images/ImagensGeral/275-bike.jpg);
+   
+}
+
+#galeriaImg3{
+
+ background-image: url(../images/ImagensGeral/c9b431a8cbe5b1ff93d152cf6e3ebf16.jpg);
+
+ }
+
+ #galeriaImg4{
+
+    background-image: url(../images/ImagensGeral/foto6.jpg);
+   
+}
+
+#galeriaImg5{
+
+    background-image: url(../images/ImagensGeral/foto3.jpg);
+
+}
+
+#galeriaImg6{
+
+    background-image: url(../images/ImagensGeral/bike\ na\ rua.jpg);
+
+}
+
+#galeriaImg7{
+
+    background-image: url(../images/ImagensGeral/c4fe9d5ff5faa035af332874882a3932.jpg);
+   
+}
+
+#galeriaImg8{
+
+    background-image: url(../images/ImagensGeral/trabalho-bike.jpg);
+   
+}
+
+#galeriaImg9{
+
+    background-image: url(../images/ImagensGeral/3955999424_c724298299_o.jpg);
+   
+}
+
+#galeriaImg10{
+
+    background-image: url(../images/ImagensGeral/RTEmagicC_ciclovia_01.jpg.jpg);
+   
+}
